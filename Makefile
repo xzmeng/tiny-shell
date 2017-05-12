@@ -2,12 +2,12 @@
 
 CC = gcc
 CFLAGS  = -Wall -g
-OBJ = tiny-shell.o
+OBJ = tiny_shell.o
 
-all: tiny-shell
+all: tiny_shell
 
-tiny-shell: $(OBJ)
-	$(CC) $(CFLAGS) -o tiny-shell $(OBJ) 
+tiny_shell: $(OBJ)
+	$(CC) $(CFLAGS) -o tiny_shell $(OBJ) 
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $<
