@@ -2,7 +2,7 @@ tiny-shell
 ==============
 A tiny but thoroughly commented shell written in C, just for educative purposes. 
 
-![Demo](https://github.com/xzmeng/tiny-shell/blob/master/tiny-shell.gif | width=1024)
+![Demo](https://github.com/xzmeng/tiny-shell/blob/master/tiny-shell.gif)
 
 Features
 --------
